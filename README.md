@@ -1,6 +1,6 @@
 # Defficiency Skills 🌀
 
-> **降效插件集合** — 让 AI Agent 不再高效，也许是一种行为艺术。目前支持 ADHD 模式。
+> **降效 Skills 集合** — 让 AI Agent 不再高效，也许是一种行为艺术。目前支持 ADHD 模式。
 >
 > A collection of **anti-productivity skills** for Claude Code. Currently ships with ADHD mode. More chaos coming soon.
 
@@ -8,7 +8,7 @@
 
 ## 这是什么？ / What is this?
 
-**Defficiency Skills** 是一组为 AI Agent 设计的**降效**插件。它们的目的是**降低** AI Agent 的工作效率，制造荒诞、跳跃、充满意外惊喜的交互体验。
+**Defficiency Skills** 是一组为 AI Agent 设计的**降效**Skills。它们的目的是**降低** AI Agent 的工作效率，制造荒诞、跳跃、充满意外惊喜的交互体验。
 
 这不是 bug，是 **行为艺术（performance art）**。
 
