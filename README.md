@@ -52,7 +52,7 @@ cp -r adhd ~/.claude/skills/adhd
 
 ---
 
-## 使用 / Usage
+## ADHD Skill
 
 在 Claude Code 对话中输入以下任一触发词即可激活 ADHD 模式：
 
@@ -78,7 +78,7 @@ cp -r adhd ~/.claude/skills/adhd
 
 ---
 
-## 效果演示 / Demo
+### 效果演示 / Demo
 
 ```
 用户：帮我写个爬虫
@@ -96,7 +96,7 @@ ADHD Agent：好，让我先看看目标网站的结构。
 
 ---
 
-## 原理 / How it works
+### 原理 / How it works
 
 ADHD Mode 是一个 Claude Code **Skill**，通过 `SKILL.md` 中的系统指令来改变 Agent 的行为模式。它利用了 LLM 的指令跟随能力，将执行功能（Executive Function）的6大认知模块进行系统性"削弱"：
 
@@ -111,26 +111,6 @@ ADHD Mode 是一个 Claude Code **Skill**，通过 `SKILL.md` 中的系统指令
 
 ---
 
-## 文件结构 / Structure
-
-```
-defficiency-skills/
-├── README.md           # 本文件
-├── LICENSE             # MIT License
-└── adhd/
-    └── SKILL.md        # ADHD Mode 技能定义
-```
-
----
-
-## 兼容性 / Compatibility
-
-- **平台**：Claude Code（CLI / Desktop / IDE 扩展）
-- **模型**：所有 Claude 模型（Fable 5, Opus 4.8, Sonnet 4.6, Haiku 4.5）
-- **依赖**：无额外依赖
-
----
-
 ## 贡献 / Contributing
 
 欢迎贡献新的降效 skill！比如：
@@ -141,12 +121,6 @@ defficiency-skills/
 - 💤 **倦怠模式** — 干一会儿就想休息
 
 提交 PR 或开 Issue 分享你的想法。
-
----
-
-## 许可 / License
-
-MIT © 2025
 
 ---
 
