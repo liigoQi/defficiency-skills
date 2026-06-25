@@ -1,8 +1,8 @@
 # Defficiency Skills 🌀
 
-> **降效插件集合** — 让 AI Agent 不再高效，体验行为艺术的魅力。
+> **降效插件集合** — 让 AI Agent 不再高效，体验行为艺术的魅力。目前支持 ADHD 模式。
 >
-> A collection of **anti-productivity skills** for Claude Code. Turn your AI agent from a productivity machine into a beautifully distracted, chaotic, and strangely human-like companion.
+> A collection of **anti-productivity skills** for Claude Code. Currently ships with ADHD mode. More chaos coming soon.
 
 ---
 
