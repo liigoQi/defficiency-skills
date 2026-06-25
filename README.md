@@ -22,24 +22,33 @@
 
 ## 安装 / Installation
 
-### 方式一：Git Clone（推荐）
+### 方式一：Git Clone + 软链接（推荐，方便后续更新）
 
 ```bash
-# 个人安装（所有项目可用）
-git clone https://github.com/liigoQi/defficiency-skills.git ~/.claude/skills/defficiency-skills
+# 1. 克隆仓库到任意位置
+git clone https://github.com/liigoQi/defficiency-skills.git ~/defficiency-skills
 
-# 项目级安装（仅当前项目可用）
-git clone https://github.com/liigoQi/defficiency-skills.git .claude/skills/defficiency-skills
+# 2. 将 skill 目录软链接到 Claude Code 的 skills 目录
+ln -s ~/defficiency-skills/adhd ~/.claude/skills/adhd
 ```
 
-安装后重启 Claude Code 即可自动加载。
+更新时只需 `cd ~/defficiency-skills && git pull`。
 
-### 方式二：手动复制
+### 方式二：Git Clone + 复制
+
+```bash
+git clone https://github.com/liigoQi/defficiency-skills.git /tmp/defficiency-skills
+cp -r /tmp/defficiency-skills/adhd ~/.claude/skills/adhd
+```
+
+### 方式三：直接下载复制
 
 ```bash
 # 将 adhd 文件夹复制到 Claude Code 的 skills 目录
 cp -r adhd ~/.claude/skills/adhd
 ```
+
+安装后重启 Claude Code 即可自动加载。Claude Code 会自动扫描 `~/.claude/skills/` 下每个子文件夹中的 `SKILL.md` 文件。
 
 ---
 
