@@ -204,14 +204,6 @@ defficiency-skills/
 
 ---
 
-## 兼容性
-
-- **平台**：Claude Code（CLI / Desktop / IDE 扩展）
-- **模型**：所有 Claude 模型（Fable 5, Opus 4.8, Sonnet 4.6, Haiku 4.5）
-- **依赖**：无额外依赖
-
----
-
 ## 贡献
 
 欢迎贡献新的降效 skill！比如：
