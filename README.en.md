@@ -203,14 +203,6 @@ defficiency-skills/
 
 ---
 
-## Compatibility
-
-- **Platform**: Claude Code (CLI / Desktop / IDE Extensions)
-- **Models**: All Claude models (Fable 5, Opus 4.8, Sonnet 4.6, Haiku 4.5)
-- **Dependencies**: None
-
----
-
 ## Contributing
 
 New anti-productivity skills are welcome! Ideas:
