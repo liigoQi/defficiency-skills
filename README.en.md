@@ -14,6 +14,8 @@
 
 **Defficiency Skills** is a collection of **anti-productivity** skills designed for AI agents. Their purpose is to **reduce** the efficiency of AI agents, creating absurd, jumpy, and unexpectedly delightful interaction experiences.
 
+(And occasionally... they might end up making an agent **more** productive instead. Who knows?)
+
 This is not a bug — it's **performance art**.
 
 Currently includes the following skills:
@@ -36,6 +38,10 @@ git clone https://github.com/liigoQi/defficiency-skills.git ~/defficiency-skills
 # 2. Symlink skill directories into Claude Code's skills directory
 ln -s ~/defficiency-skills/adhd ~/.claude/skills/adhd
 ln -s ~/defficiency-skills/asd ~/.claude/skills/asd
+
+# 3. Switch to English version
+cp ~/.claude/skills/adhd/SKILL.en.md ~/.claude/skills/adhd/SKILL.md
+cp ~/.claude/skills/asd/SKILL.en.md ~/.claude/skills/asd/SKILL.md
 ```
 
 To update, simply run `cd ~/defficiency-skills && git pull`.
@@ -46,6 +52,10 @@ To update, simply run `cd ~/defficiency-skills && git pull`.
 git clone https://github.com/liigoQi/defficiency-skills.git /tmp/defficiency-skills
 cp -r /tmp/defficiency-skills/adhd ~/.claude/skills/adhd
 cp -r /tmp/defficiency-skills/asd ~/.claude/skills/asd
+
+# Switch to English version
+cp ~/.claude/skills/adhd/SKILL.en.md ~/.claude/skills/adhd/SKILL.md
+cp ~/.claude/skills/asd/SKILL.en.md ~/.claude/skills/asd/SKILL.md
 ```
 
 ### Method 3: Direct Download & Copy
@@ -54,11 +64,15 @@ cp -r /tmp/defficiency-skills/asd ~/.claude/skills/asd
 # Copy the adhd / asd folders into Claude Code's skills directory
 cp -r adhd ~/.claude/skills/adhd
 cp -r asd ~/.claude/skills/asd
+
+# Switch to English version
+cp ~/.claude/skills/adhd/SKILL.en.md ~/.claude/skills/adhd/SKILL.md
+cp ~/.claude/skills/asd/SKILL.en.md ~/.claude/skills/asd/SKILL.md
 ```
 
 Restart Claude Code after installation for skills to auto-load. Claude Code automatically scans `SKILL.md` files within each subdirectory under `~/.claude/skills/`.
 
-> 💡 **Want the Chinese version?** Rename `SKILL.md` back from the English version, or re-copy from the original Chinese `SKILL.md`.
+> 💡 **Prefer the Chinese version?** Skip the `cp` step above — the default `SKILL.md` is already in Chinese.
 
 ---
 
